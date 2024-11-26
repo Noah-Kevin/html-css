@@ -1,0 +1,21 @@
+/* fond du site*/
+body{
+    background-color: pink;
+}
+
+/* Modification police + les textes en rose et centré */
+h1,
+p,
+ul{ 
+    font-family:'Comic Sans MS';
+    color: hotpink;
+    text-align: center;
+}
+
+/* Image au centre + bordure arrondi et en rose*/
+img{
+    display: block;
+    margin: auto;
+    border-radius:50%; 
+    border: 5px solid hotpink;
+}
